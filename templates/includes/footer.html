@@ -1,0 +1,54 @@
+{% load static %}
+            <footer class="footer-section bg-light">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <h3>Адресса</h3>
+                            <p>{{ footer.address|safe }}</p>
+                        </div>
+                        <!-- About Section -->
+                        <div class="col-md-3">
+                            <h3>Про OneSchool</h3>
+                            <p>{{ footer.about|safe }}</p>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <h3>Стежити за нами</h3>
+                            <div>
+                                {% if footer.twitter_link %}
+                                <a href="{{ footer.twitter_link }}" style="text-decoration: none; color: #55acee; margin-right: 10px;">
+                                    <i class="fa fa-twitter" style="font-size: 24px;"></i>
+                                </a>
+                                {% endif %}
+                                {% if footer.facebook_link %}
+                                <a href="{{ footer.facebook_link }}" style="text-decoration: none; color: #3b5998; margin-right: 10px;">
+                                    <i class="fa fa-facebook" style="font-size: 24px;"></i>
+                                </a>
+                                {% endif %}
+                                {% if footer.instagram_link %}
+                                <a href="{{ footer.instagram_link }}" style="text-decoration: none; color: #e4405f; margin-right: 10px;">
+                                    <i class="fa fa-instagram" style="font-size: 24px;"></i>
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Робочі дні</h3>
+                            <p>{{ footer.days|safe }}</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row pt-5 mt-5 text-center">
+                        <div class="col-md-12">
+                            <div class="border-top pt-5">
+                                <p>
+                                    {{ footer.copyright_text|safe }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>

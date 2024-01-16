@@ -1,0 +1,53 @@
+{% load static %}
+        <div class="site-section courses-title bg-dark" id="courses">
+        <div class="container">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+                    <h2 class="section-title">Більше курсів</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel col-12 nonloop-block-14">
+
+                {% for course in courses %}
+                    <div class="course bg-white h-100 align-self-stretch">
+                        <figure class="m-0">
+                            {% if course.photo %}
+                                <a href="{% url 'course_detail' course.slug %}">
+                                    <img src="{{ course.photo.url }}" alt="{{ course.title }}" class="img-fluid">
+                                </a>
+                            {% else %}
+                                <a href="{% url 'course_detail' course.slug %}">
+                                    <img src="{% static 'images/pyl.png' %}" alt="{{ course.title }}" class="img-fluid">
+                                </a>
+                            {% endif %}
+                        </figure>
+                        <div class="course-inner-text py-4 px-4">
+                            <span class="course-price">${{ course.price }}</span>
+                            <div class="meta"><span class="icon-clock-o"></span>{{ course.duration }}</div>
+                            <h3><a href="{% url 'course_detail' course.slug %}">{{ course.title }}</a></h3>
+                            <p>{{ course.description }}</p>
+                        </div>
+                        <div class="d-flex border-top stats">
+                            <div class="py-3 px-4"><span class="icon-users"></span> {{ course.students }} students</div>
+                            <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> {{ course.reviews_count }}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+        <div class="col-7 text-center">
+            <button class="customPrevBtn btn btn-primary m-1">Назад</button>
+            <button class="customNextBtn btn btn-primary m-1">Наступний</button>
+        </div>
+    </div>

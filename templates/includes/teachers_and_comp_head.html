@@ -1,0 +1,48 @@
+{% load static %}
+    <div class="site-section" id="teachers">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Наші викладачі</h2>
+            <p class="mb-5">Кожен викладач має диплом затверджений в Міністерстві Освіти, та також проходив курс
+             підготовки та покращення знань, перед тим як почав проводити заняття у своїх груп.</p>
+          </div>
+        </div>
+
+
+
+          <div class="row">
+            {% for teacher in teachers %}
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="teacher text-center">
+                    <img src="{{ teacher.image.url }}" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+                    <div class="py-2">
+                        <h3 class="text-black">{{ teacher.name }}</h3>
+                        <p class="position">{{ teacher.position }}</p>
+                        <p>{{ teacher.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+          </div>
+        </div>
+      </div>
+
+
+        {% if company_head %}
+        <div class="site-section bg-image overlay" style="background-image: url('{% static "images/slider_1.jpg" %}');">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-8 text-center testimony">
+                <img src="{{ company_head.image.url }}" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+                <h3 class="mb-4">{{ company_head.name }}</h3>
+                <blockquote>
+                  <p>&ldquo; {{ company_head.quote }} &rdquo;</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}

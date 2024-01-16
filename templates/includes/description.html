@@ -1,0 +1,87 @@
+{% load static %}
+
+<div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5">
+                    <div class="mb-5">
+                        <h3 class="text-black">Опис курсу</h3>
+                        <p style="white-space: normal; word-wrap: break-word;">{{ course.description }}</p>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                             {% if course.photo %}
+                                <img src="{{ course.photo.url }}" alt="{{ course.name }}" class="img-fluid rounded">
+                             {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                {% if course.photo_next %}
+                                    <img src="{{ course.photo_next.url }}" alt="{{ course.name }}" class="img-fluid rounded">
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <p style="white-space: normal; word-wrap: break-word;">{{ course.additional_description }}</p>
+
+
+                    {% if user.is_authenticated %}
+                      <p>Вітаю, {{ user.username }}! Ви можете залишити коментар нижче.</p>
+                    {% endif %}
+
+                  {% if user.is_authenticated %}
+                      <div class="comment-form-wrap pt-5">
+            <h3 class="mb-5">Залишити коментар</h3>
+            <form action="{% url 'course_detail' slug=course.slug %}" method="POST" class="p-5 bg-light">
+                {% csrf_token %}
+                <div class="form-group">
+                <label for="id_text">Ваш коментар</label>
+                <textarea class="form-control" id="id_text" name="text" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                <button type="submit" class="btn btn-primary">Відправити коментар</button>
+                </div>
+                </form>
+                </div>
+                {% else %}
+                <p>Ви маєте <a href="{% url 'login' %}">увійти</a> щоб залишити коментар.</p>
+                {% endif %}
+
+                    <div class="comments-section">
+                      <h3 class="mb-5">{{ comments.count }} Коментарів</h3>
+                      <ul class="comment-list">
+                        {% for comment in comments %}
+                          <li class="comment mb-4">
+                            <div class="d-flex">
+                              <div class="vcard bio mr-3">
+                                <img src="{% static 'images/avatar_for_comm.jpg' %}" alt="Image placeholder" class="img-fluid rounded-circle">
+                              </div>
+                              <div class="comment-body">
+                                <h3>{{ comment.user.username }}</h3>
+                                <div class="meta">{{ comment.created_at|date:"F d, Y \a\t H:i" }}</div>
+                                <p>{{ comment.text }}</p>
+
+                              </div>
+                            </div>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+
+
+                <div class="col-lg-4 pl-lg-5">
+                    <div class="mb-5 text-center border rounded course-instructor">
+                        {% if course.instructor %}
+                            <h3 class="mb-5 text-black text-uppercase h6 border-bottom pb-3">Викладач курсу</h3>
+                            <div class="mb-4 text-center">
+                                <img src="{{ course.instructor.photo.url }}" alt="{{ course.instructor.name }}" class="w-25 rounded-circle mb-4">
+                                <h3 class="h5 text-black mb-4">{{ course.instructor.name }}</h3>
+                                <p>{{ course.instructor.description }}</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
