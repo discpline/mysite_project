@@ -631,7 +631,7 @@
         "user": 1,
         "content_type": 8,
         "object_id": "7",
-        "object_repr": "Розширенний курс з програмування - 30$",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 30$",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -644,7 +644,7 @@
         "user": 1,
         "content_type": 8,
         "object_id": "7",
-        "object_repr": "Розширенний курс з програмування - 30.00$",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 30.00$",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Photo\", \"Photo next\"]}}]"
     }
@@ -878,7 +878,7 @@
         "user": 1,
         "content_type": 15,
         "object_id": "1",
-        "object_repr": "Кирило",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Photo\", \"Description\"]}}]"
     }
@@ -891,7 +891,7 @@
         "user": 1,
         "content_type": 15,
         "object_id": "2",
-        "object_repr": "Владислав",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Photo\", \"Description\"]}}]"
     }
@@ -917,7 +917,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "3",
-        "object_repr": "Дмитро",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
     }
@@ -930,7 +930,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "2",
-        "object_repr": "Кирило",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
     }
@@ -943,7 +943,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "1",
-        "object_repr": "Владислав",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
     }
@@ -956,7 +956,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "2",
-        "object_repr": "Кирило",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -969,7 +969,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "1",
-        "object_repr": "Владислав",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -982,7 +982,7 @@
         "user": 1,
         "content_type": 15,
         "object_id": "3",
-        "object_repr": "Дмитро",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -995,7 +995,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "3",
-        "object_repr": "Дмитро",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
     }
@@ -1008,7 +1008,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "3",
-        "object_repr": "Дмитро",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
     }
@@ -1021,7 +1021,7 @@
         "user": 1,
         "content_type": 13,
         "object_id": "2",
-        "object_repr": "Кирило",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
     }
@@ -1034,7 +1034,7 @@
         "user": 1,
         "content_type": 14,
         "object_id": "1",
-        "object_repr": "Дмитро",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Quote\", \"Image\"]}}]"
     }
@@ -1138,7 +1138,7 @@
         "user": 1,
         "content_type": 8,
         "object_id": "7",
-        "object_repr": "Розширенний курс з програмування - 30.00$",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 30.00$",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Additional description\", \"Photo\", \"Photo next\", \"Duration\", \"Instructor\"]}}]"
     }
@@ -1164,7 +1164,7 @@
         "user": 1,
         "content_type": 8,
         "object_id": "7",
-        "object_repr": "Розширенний курс з програмування - 30.00$",
+        "object_repr": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - 30.00$",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
     }
@@ -2133,9 +2133,9 @@
     "model": "mysite.instructor",
     "pk": 1,
     "fields": {
-        "name": "Кирило",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "photo": "instructors/kaneki_instr.jpg",
-        "description": "Досвідчений викладач, має великий досвід та володіє Python, Java та Ruby",
+        "description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅдіє Python, Java пїЅпїЅ Ruby",
         "is_active": true
     }
 },
@@ -2143,9 +2143,9 @@
     "model": "mysite.instructor",
     "pk": 2,
     "fields": {
-        "name": "Владислав",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "photo": "instructors/denji_instr.jpg",
-        "description": "Має великий досвід у безлічі проектів. Працював в Google. Експерт з C++, Java, C, Assembler.",
+        "description": "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Google. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ C++, Java, C, Assembler.",
         "is_active": true
     }
 },
@@ -2153,9 +2153,9 @@
     "model": "mysite.instructor",
     "pk": 3,
     "fields": {
-        "name": "Дмитро",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "photo": "instructors/gojo_instr.jpg",
-        "description": "Найдосвідченіший викладач, засновник компанії, експерт у Python, Java, C++, Php.",
+        "description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Python, Java, C++, Php.",
         "is_active": true
     }
 },
@@ -2192,12 +2192,12 @@
     "fields": {
         "name": "Python pro",
         "slug": "python-pro",
-        "description": "Продовження базового курсу пайтон.",
-        "additional_description": "Вступ у розширену логіку мови програмування.\r\nТут студенти отримають більше важкі та заплутані завдання, розв'язок яких дуже цікавий, але\r\nне такий простий, як у минулому блоці.",
+        "description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.",
+        "additional_description": "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\r\nпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ'пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ\r\nпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.",
         "photo": "courses/py_pro2_1.jpg",
         "photo_next": "courses/py_pro2_2.jpg",
         "price": "110.00",
-        "duration": "12 тижнів",
+        "duration": "12 пїЅпїЅпїЅпїЅпїЅ",
         "is_visible": true,
         "order": 4,
         "students": 5,
@@ -2212,12 +2212,12 @@
     "fields": {
         "name": "python start",
         "slug": "python-start",
-        "description": "Курс пайтон, вступ.",
-        "additional_description": "Вступ у пайтон для початківців, де кожен зможе дізнатися для себе чи подобається йому,\r\nця мова програмування, чи він хоче спробувати себе у іншому напрямку.\r\nМає цікавий вступ та захоплюючі завдання.",
+        "description": "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ.",
+        "additional_description": "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ,\r\nпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\r\nпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.",
         "photo": "courses/py_start1.png",
         "photo_next": "courses/py_start1_2.png",
         "price": "50.00",
-        "duration": "8 тижнів",
+        "duration": "8 пїЅпїЅпїЅпїЅпїЅ",
         "is_visible": true,
         "order": 2,
         "students": 11,
@@ -2232,12 +2232,12 @@
     "fields": {
         "name": "Java step",
         "slug": "python-step",
-        "description": "Вступ в Java",
-        "additional_description": "Вступ у джава для початківців, де кожен зможе дізнатися для себе чи подобається йому, ця мова програмування, чи він хоче спробувати себе у іншому напрямку. Має цікавий вступ та захоплюючі завдання.",
+        "description": "пїЅпїЅпїЅпїЅпїЅ пїЅ Java",
+        "additional_description": "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.",
         "photo": "courses/java_step1.png",
         "photo_next": "courses/java_step2.png",
         "price": "23.00",
-        "duration": "10 тижнів",
+        "duration": "10 пїЅпїЅпїЅпїЅпїЅ",
         "is_visible": true,
         "order": 6,
         "students": 2,
@@ -2250,14 +2250,14 @@
     "model": "mysite.course",
     "pk": 7,
     "fields": {
-        "name": "Розширенний курс з програмування",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "slug": "rozshirennij-kurs-z-programuvannya",
-        "description": "Ruby для початківців також вступ у Python.",
-        "additional_description": "Розширенний курс для тих, хто не може обрати для себе шлях у IT.\r\nТут студенти спробують багато чого та дізнаються для себе, що саме їх цікавить.",
+        "description": "Ruby пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ Python.",
+        "additional_description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ IT.\r\nпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.",
         "photo": "courses/ruby_1.png",
         "photo_next": "courses/ruby_2.png",
         "price": "30.00",
-        "duration": "5 тижнів",
+        "duration": "5 пїЅпїЅпїЅпїЅпїЅ",
         "is_visible": true,
         "order": 5,
         "students": 15,
@@ -2270,9 +2270,9 @@
     "model": "mysite.teacher",
     "pk": 1,
     "fields": {
-        "name": "Владислав",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "position": "1",
-        "description": "Має великий досвід у безлічі проектів. Працював в Google. Експерт з C++, Java, C, Assembler.",
+        "description": "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Google. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ C++, Java, C, Assembler.",
         "image": "teachers/denji_instr.jpg",
         "is_visible": true
     }
@@ -2281,9 +2281,9 @@
     "model": "mysite.teacher",
     "pk": 2,
     "fields": {
-        "name": "Кирило",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "position": "2",
-        "description": "Досвідчений викладач, має великий досвід та володіє Python, Java та Ruby.",
+        "description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅдіє Python, Java пїЅпїЅ Ruby.",
         "image": "teachers/kaneki_instr.jpg",
         "is_visible": true
     }
@@ -2292,9 +2292,9 @@
     "model": "mysite.teacher",
     "pk": 3,
     "fields": {
-        "name": "Дмитро",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "position": "3",
-        "description": "Найдосвідченіший викладач, засновник компанії, експерт у Python, Java, C++, Php.",
+        "description": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Python, Java, C++, Php.",
         "image": "teachers/gojo_instr.jpg",
         "is_visible": true
     }
@@ -2303,9 +2303,9 @@
     "model": "mysite.companyhead",
     "pk": 1,
     "fields": {
-        "name": "Дмитро",
+        "name": "пїЅпїЅпїЅпїЅпїЅпїЅ",
         "title": "Title text",
-        "quote": "Дякую всім хто допоміг і був з початку заснування школи програмування OneSchool.\r\nМи продовжуємо працювати та навчати все більше майбутніх фахівців в IT сфері.",
+        "quote": "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ OneSchool.\r\nпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ IT пїЅпїЅпїЅпїЅ.",
         "image": "heads/gojo_instr.jpg",
         "is_active": true
     }
@@ -2416,7 +2416,7 @@
         "last_name": "last name",
         "subject": "Study",
         "email": "nataly@gmail.com",
-        "message": "Хочу вибрати оптимальний курс",
+        "message": "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ",
         "is_processed": true,
         "created_at": "2024-01-14T16:30:38.138Z",
         "updated_at": "2024-01-14T16:31:02.780Z"
@@ -2502,7 +2502,7 @@
     "fields": {
         "course": 5,
         "user": 1,
-        "text": "Тестую коментарі",
+        "text": "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
         "created_at": "2024-01-14T20:23:20.507Z"
     }
 },
@@ -2605,12 +2605,12 @@
     "model": "main_app.footer",
     "pk": 1,
     "fields": {
-        "address": "<p><em>Хмельницький, вул. Проскурівського Підпілля 215</em></p>",
-        "about": "<p><em>Ми - найбільша школа програмування в нашому регіоні.</em></p>\r\n\r\n<p><em>Дякуємо, за те, що обираєте нас!!!</em>&nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" /></p>",
+        "address": "<p><em>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ПіпїЅпїЅпїЅпїЅпїЅ 215</em></p>",
+        "about": "<p><em>пїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.</em></p>\r\n\r\n<p><em>пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ!!!</em>&nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" /></p>",
         "twitter_link": "https://twitter.com/?lang=ru",
         "facebook_link": "https://www.facebook.com/",
         "instagram_link": "https://www.instagram.com/_.d1scipl1ne._/",
-        "days": "<p><tt><em>Понеділок - П&#39;ятниця | 10:00 - 19:00<br />\r\nСубота та Неділя | 12:00 - 16:00</em></tt></p>",
+        "days": "<p><tt><em>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅ&#39;пїЅпїЅпїЅпїЅпїЅпїЅ | 10:00 - 19:00<br />\r\nпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ | 12:00 - 16:00</em></tt></p>",
         "copyright_text": "<h2 style=\"font-style:italic\">This copyright text was made with love</h2>\r\n\r\n<p>&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" />&nbsp; &nbsp;<img alt=\"heart\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.png\" style=\"height:23px; width:23px\" title=\"heart\" /></p>"
     }
 }
