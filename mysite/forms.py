@@ -3,6 +3,9 @@ from .models import SendMessage,Comment
 
 
 class SendMessageForm(forms.ModelForm):
+    """
+    Форма для надсилання повідомлення.
+    """
 
     first_name = forms.CharField(label='first_name',
                                    widget=forms.TextInput(attrs={
@@ -35,6 +38,9 @@ class SendMessageForm(forms.ModelForm):
 
 
 class CommentForm(forms.ModelForm):
+    """
+    Форма для коментарів.
+    """
     class Meta:
         model = Comment
         fields = ['text']

@@ -5,16 +5,28 @@ from django.contrib.auth.models import User
 
 
 class Instructor(models.Model):
+    """
+    Модель Інструктор.
+    """
     name = models.CharField(max_length=100)
     photo = models.ImageField(upload_to='instructors/')
     description = models.TextField()
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return self.name
 
 
 class CourseCategory(models.Model):
+    """
+    Модель Категорія курсів.
+    """
     name = models.CharField(max_length=255, unique=True)
     order = models.PositiveSmallIntegerField()
     is_visible = models.BooleanField(default=True)
@@ -24,10 +36,19 @@ class CourseCategory(models.Model):
         ordering = ('order',)
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return self.name
 
 
 class Course(models.Model):
+    """
+    Модель Курсу.
+    """
     name = models.CharField(max_length=255, unique=True)
     slug = models.SlugField(max_length=255, unique=True, db_index=True, verbose_name='URL')
     description = models.TextField(blank=True)
@@ -51,10 +72,19 @@ class Course(models.Model):
         ]
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return f'{self.name} - {self.price}$'
 
 
 class Teacher(models.Model):
+    """
+    Модель Викладача.
+    """
     name = models.CharField(max_length=100)
     position = models.CharField(max_length=100)
     description = models.TextField()
@@ -62,10 +92,19 @@ class Teacher(models.Model):
     is_visible = models.BooleanField(default=True)
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return self.name
 
 
 class CompanyHead(models.Model):
+    """
+    Модель Керівника компанії.
+    """
     name = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     quote = models.TextField()
@@ -73,6 +112,12 @@ class CompanyHead(models.Model):
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return self.name
 
     class Meta:
@@ -81,6 +126,9 @@ class CompanyHead(models.Model):
 
 
 class SendMessage(models.Model):
+    """
+    Модель Повідомлення.
+    """
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     subject = models.TextField(max_length=100)
@@ -92,6 +140,12 @@ class SendMessage(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
+        """
+        Представлення об'єкта моделі як рядок.
+
+        Returns:
+            str: Рядок представлення об'єкта.
+        """
         return f'{self.first_name} {self.last_name} - {self.email}'
 
     class Meta:
@@ -99,6 +153,9 @@ class SendMessage(models.Model):
 
 
 class Comment(models.Model):
+    """
+    Модель Коментаря.
+    """
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='comments')
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     text = models.TextField()

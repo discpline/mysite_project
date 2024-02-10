@@ -10,9 +10,21 @@ from django.contrib.auth import login
 
 
 class IndexPage(TemplateView):
+    """
+    Представлення головної сторінки.
+
+    Attributes:
+        template_name (str): Назва шаблону для відображення сторінки.
+    """
     template_name = 'index.html'
 
     def get_context_data(self, **kwargs):
+        """
+        Отримання контексту для відображення сторінки.
+
+        Returns:
+            dict: Словник з контекстом для шаблону.
+        """
         context = super().get_context_data(**kwargs)
         categories = CourseCategory.objects.filter(is_visible=True)
         courses = Course.objects.prefetch_related('instructor').filter(is_visible=True)
@@ -29,6 +41,17 @@ class IndexPage(TemplateView):
         return context
 
     def post(self, request, *args, **kwargs):
+        """
+        Обробка POST-запитів на головній сторінці.
+
+        Args:
+            request (HttpRequest): Об'єкт запиту.
+            *args: Позиційні аргументи.
+            **kwargs: Іменовані аргументи.
+
+        Returns:
+            HttpResponse: Відповідь на запит.
+        """
         context = self.get_context_data(**kwargs)
         send_message_form = SendMessageForm(request.POST or None)
         user_registration_form = UserRegistrationForm(request.POST or None)
@@ -61,6 +84,16 @@ class IndexPage(TemplateView):
 
 
 def course_detail(request, slug):
+    """
+    Відображення детальної інформації про курс.
+
+    Args:
+        request (HttpRequest): Об'єкт запиту.
+        slug (str): Частина URL-адреси, що ідентифікує курс.
+
+    Returns:
+        HttpResponse: Відповідь на запит з відображенням детальної інформації про курс.
+    """
     course = get_object_or_404(Course, slug=slug)
     other_courses = Course.objects.all
     context = {

@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 # Create User Registration Form
 class UserRegistrationForm(UserCreationForm):
     """
-    User Registration Form.
+    Форма реєстрації користувача.
     """
     username = forms.CharField(label='username', widget=forms.TextInput(attrs={'placeholder': 'Your Username',
                                                                                'class': 'form-control',
